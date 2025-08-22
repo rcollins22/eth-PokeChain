@@ -48,24 +48,14 @@ contract PokeCoin is ERC20, ERC20Burnable, ERC20Permit, Pausable, Ownable {
         _unpause();
     }
 
-    // -------------------------
-    // Safety: Rescue function
-    // -------------------------
 
 
-    // function rescueERC20(address token, address to, uint256 amount) external onlyOwner {
-    //     if (token == address(this)) revert NotThisToken();
-    //     if (to == address(0)) revert ZeroAddress();
-    //     IERC20(token).safeTransfer(to, amount);
-    // }
+    function rescueERC20(address token, address to, uint256 amount) external onlyOwner {
+        if (token == address(this)) revert NotThisToken();
+        if (to == address(0)) revert ZeroAddress();
+        IERC20(token).safeTransfer(to, amount);
+    }
 
-    // -------------------------
-    // Hooks / Overrides (OZ v5 patterns)
-    // -------------------------
-
-    /**
-     * @dev Pausable integration for ERC20 in OZ v5: gate all state-changing token moves.
-     */
     function _update(address from, address to, uint256 value)
         internal
         override(ERC20)
