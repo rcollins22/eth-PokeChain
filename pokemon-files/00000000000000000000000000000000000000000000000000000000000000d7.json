@@ -1,0 +1,119 @@
+{
+  "name": "Sneasel",
+  "description": "A uncommon Pokémon.",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/215.png",
+  "attributes": [
+    {
+      "trait_type": "Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Base Total",
+      "value": 430
+    },
+    {
+      "trait_type": "HP",
+      "value": 55
+    },
+    {
+      "trait_type": "Attack",
+      "value": 95
+    },
+    {
+      "trait_type": "Defense",
+      "value": 55
+    },
+    {
+      "trait_type": "Special Attack",
+      "value": 35
+    },
+    {
+      "trait_type": "Special Defense",
+      "value": 75
+    },
+    {
+      "trait_type": "Speed",
+      "value": 115
+    },
+    {
+      "trait_type": "Primary Type",
+      "value": "dark"
+    },
+    {
+      "trait_type": "Secondary Type",
+      "value": "ice"
+    },
+    {
+      "trait_type": "Effectiveness vs Bug",
+      "value": 2
+    },
+    {
+      "trait_type": "Effectiveness vs Dark",
+      "value": 0.5
+    },
+    {
+      "trait_type": "Effectiveness vs Dragon",
+      "value": 1
+    },
+    {
+      "trait_type": "Effectiveness vs Electric",
+      "value": 1
+    },
+    {
+      "trait_type": "Effectiveness vs Fairy",
+      "value": 2
+    },
+    {
+      "trait_type": "Effectiveness vs Fight",
+      "value": 4
+    },
+    {
+      "trait_type": "Effectiveness vs Fire",
+      "value": 2
+    },
+    {
+      "trait_type": "Effectiveness vs Flying",
+      "value": 1
+    },
+    {
+      "trait_type": "Effectiveness vs Ghost",
+      "value": 0.5
+    },
+    {
+      "trait_type": "Effectiveness vs Grass",
+      "value": 1
+    },
+    {
+      "trait_type": "Effectiveness vs Ground",
+      "value": 1
+    },
+    {
+      "trait_type": "Effectiveness vs Ice",
+      "value": 0.5
+    },
+    {
+      "trait_type": "Effectiveness vs Normal",
+      "value": 1
+    },
+    {
+      "trait_type": "Effectiveness vs Poison",
+      "value": 1
+    },
+    {
+      "trait_type": "Effectiveness vs Psychic",
+      "value": 0
+    },
+    {
+      "trait_type": "Effectiveness vs Rock",
+      "value": 2
+    },
+    {
+      "trait_type": "Effectiveness vs Steel",
+      "value": 2
+    },
+    {
+      "trait_type": "Effectiveness vs Water",
+      "value": 1
+    }
+  ]
+}
