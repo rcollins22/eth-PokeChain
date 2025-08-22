@@ -1,5 +1,7 @@
 .deps
 
+artifacts
 .git
 
 .prettierrc.json
+.states
